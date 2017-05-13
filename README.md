@@ -1,2 +1,5 @@
 # git_clone
-clone git file 
+git clone --bare "URL" .git
+git config core.bare false
+
+git reset --hard 
